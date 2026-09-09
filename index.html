@@ -176,41 +176,29 @@
        ========================= */
 
     @media (max-width: 700px) {
-
-      .container {
-        padding: 0 22px;
-      }
-
+    
       .nav-links {
         display: none;
       }
-
+    
       h1 {
         font-size: 36px;
       }
-
+    
       .hero {
         padding-top: 45px;
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        gap: 35px;
+        grid-template-columns: 1fr;
+        gap: 30px;
       }
-
+    
       .hero-photo {
-        flex: none;
+        grid-row: 1;
+        width: 180px;
       }
-
+    
       .hero-photo img {
-        width: 200px;
-        height: 250px;
-      }
-
-      .research-line {
-        font-size: 21px;
-      }
-
-      .intro {
-        font-size: 17px;
+        width: 180px;
+        height: 225px;
       }
     }
 
