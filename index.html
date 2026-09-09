@@ -64,30 +64,30 @@
        ========================= */
 
     .hero {
-      padding: 75px 0 65px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      padding: 70px 0 60px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 220px;
       gap: 60px;
+      align-items: center;
     }
-
+  
     .hero-content {
-      flex: 1;
-      max-width: 680px;
+      min-width: 0;
     }
-
+    
     .hero-photo {
-      flex: 0 0 260px;
+      width: 220px;
     }
-
+    
     .hero-photo img {
-      width: 260px;
-      height: 320px;
+      width: 220px;
+      height: 275px;
       object-fit: cover;
-      border-radius: 6px;
+      object-position: center top;
+      border-radius: 5px;
       display: block;
     }
-
+    
     h1 {
       font-size: 44px;
       line-height: 1.2;
