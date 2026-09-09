@@ -1,2 +1,3 @@
-# pranavsharma94.github.io
-Academic website of Pranav Sharma – Power Systems Research
+# Pranav Sharma Academic Website
+
+Static GitHub Pages site. Shared styles: `assets/css/style.css`.
